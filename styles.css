@@ -1,0 +1,78 @@
+.menu{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 10px;
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: 400;
+    color: white;
+}
+body{
+    margin: 20px;
+    background-color:#f7f2f2;
+    top: 30%
+    
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color:white;
+}
+a:visited{
+    color:white;
+}
+
+.title {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    color:#0e0d0d;
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top:15%;
+    left:20%;
+    background: #f2f2f4;
+}
+.para h3{
+    display: flex;
+    justify-content: space-between;
+    color:#2d1097;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    position: absolute;
+    top:45%;
+   left : 10%
+    
+    
+}
+.grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    top : 100%
+    
+}
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+    top: 75%
+}
+.origami { 
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 25px;
+    width:310px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.origami:hover{
+
+    transform: scale(1.2);
+}
